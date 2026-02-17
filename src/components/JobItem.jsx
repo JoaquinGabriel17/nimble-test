@@ -24,6 +24,7 @@ export const JobItem = ({ job, candidate, onSubmitSuccess }) => {
         jobId: job.id,
         candidateId: candidate.candidateId,
         repoUrl: repoUrl.trim(),
+        applicationId: candidate.applicationId 
       });
       
       setSuccess(true);
